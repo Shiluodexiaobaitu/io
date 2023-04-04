@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,N as s}from"./chunks/framework.455c34d5.js";const y=JSON.parse('{"title":"Class: GPS","description":"","frontmatter":{},"headers":[],"relativePath":"docs/classes/class.GPS.md"}'),o={name:"docs/classes/class.GPS.md"},l=s("",57),r=[l];function n(c,i,d,p,h,u){return a(),t("div",null,r)}const b=e(o,[["render",n]]);export{y as __pageData,b as default};
