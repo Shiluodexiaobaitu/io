@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,N as o}from"./chunks/framework.455c34d5.js";const u=JSON.parse('{"title":"Module: loop","description":"","frontmatter":{},"headers":[],"relativePath":"docs/modules/loop.md"}'),l={name:"docs/modules/loop.md"},s=o("",65),r=[s];function n(c,d,i,p,h,y){return a(),t("div",null,r)}const b=e(l,[["render",n]]);export{u as __pageData,b as default};
