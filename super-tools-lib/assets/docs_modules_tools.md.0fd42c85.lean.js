@@ -1,1 +1,0 @@
-import{_ as s,c as t,o as e,N as a}from"./chunks/framework.0215aaca.js";const F=JSON.parse('{"title":"Module: tools","description":"","frontmatter":{},"headers":[],"relativePath":"docs/modules/tools.md"}'),l={name:"docs/modules/tools.md"},o=a("",253),n=[o];function p(r,c,i,d,y,h){return e(),t("div",null,n)}const g=s(l,[["render",p]]);export{F as __pageData,g as default};
