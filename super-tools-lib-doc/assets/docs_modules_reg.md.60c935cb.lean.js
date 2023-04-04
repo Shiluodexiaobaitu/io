@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,N as a}from"./chunks/framework.a618ffea.js";const m=JSON.parse('{"title":"Module: reg","description":"","frontmatter":{},"headers":[],"relativePath":"docs/modules/reg.md"}'),l={name:"docs/modules/reg.md"},s=a("",19),n=[s];function c(i,d,r,u,p,h){return o(),t("div",null,n)}const y=e(l,[["render",c]]);export{m as __pageData,y as default};

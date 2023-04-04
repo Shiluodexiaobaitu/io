@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as e,N as s}from"./chunks/framework.a618ffea.js";const F=JSON.parse('{"title":"Module: date","description":"","frontmatter":{},"headers":[],"relativePath":"docs/modules/date.md"}'),l={name:"docs/modules/date.md"},n=s("",152),o=[n];function p(r,c,d,i,y,D){return e(),a("div",null,o)}const m=t(l,[["render",p]]);export{F as __pageData,m as default};
