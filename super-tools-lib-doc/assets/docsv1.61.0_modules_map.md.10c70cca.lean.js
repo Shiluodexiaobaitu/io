@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,N as l}from"./chunks/framework.a618ffea.js";const f=JSON.parse('{"title":"Module: map","description":"","frontmatter":{},"headers":[],"relativePath":"docsv1.61.0/modules/map.md"}'),o={name:"docsv1.61.0/modules/map.md"},r=l("",31),d=[r];function c(n,s,i,h,m,u){return a(),e("div",null,d)}const x=t(o,[["render",c]]);export{f as __pageData,x as default};

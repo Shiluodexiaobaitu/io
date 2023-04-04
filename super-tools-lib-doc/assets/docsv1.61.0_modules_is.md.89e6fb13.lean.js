@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,N as r}from"./chunks/framework.a618ffea.js";const m=JSON.parse('{"title":"Module: is","description":"","frontmatter":{},"headers":[],"relativePath":"docsv1.61.0/modules/is.md"}'),o={name:"docsv1.61.0/modules/is.md"},l=r("",259),s=[l];function i(d,n,h,c,b,u){return a(),t("div",null,s)}const f=e(o,[["render",i]]);export{m as __pageData,f as default};
