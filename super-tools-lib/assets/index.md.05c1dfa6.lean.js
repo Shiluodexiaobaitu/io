@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,N as l}from"./chunks/framework.06387d3b.js";const C=JSON.parse('{"title":"super-tools-lib","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),o={name:"index.md"},p=l("",6),e=[p];function t(c,r,i,D,y,F){return n(),a("div",null,e)}const d=s(o,[["render",t]]);export{C as __pageData,d as default};
