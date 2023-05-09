@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .heart {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      transform: translate(-50%, -50%);
+    }
+
+    .heart:before,
+    .heart:after {
+      content: "";
+      position: absolute;
+      background-color: currentColor;
+      border-radius: 50%;
+    }
+
+    .heart:before {
+      top: -10px;
+      left: 0;
+      width: 20px;
+      height: 20px;
+    }
+
+    .heart:after {
+      top: 0;
+      left: -10px;
+      width: 20px;
+      height: 20px;
+    }
+
+    @keyframes heart-beat {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.2);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .heart {
+      animation: heart-beat 1s ease-in-out;
+    }
+
+    .anxin {
+      position: relative;
+      width: 50px;
+      height: 50px;
+    }
+
+    .anxin::before,
+    .anxin::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      transform: translate(-50%, -50%) rotate(45deg);
+      border-radius: 50%;
+      background-color: #ff69b4;
+    }
+
+    .anxin::after {
+      transform: translate(-50%, -50%) rotate(45deg) translateY(-10px);
+    }
+
+    @keyframes anxin-move {
+      0% {
+        transform: translate(-50%, -50%) rotate(45deg);
+        opacity: 1;
+      }
+
+      50% {
+        transform: translate(-50%, -100%) rotate(45deg);
+        opacity: 0.5;
+      }
+
+      100% {
+        transform: translate(-50%, -150%) rotate(45deg);
+        opacity: 0;
+      }
+    }
+
+    .anxin {
+      animation: anxin-move 1s ease-in-out forwards;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // 获取页面元素
+    const body = document.querySelector('body');
+
+    // 添加事件监听器
+    body.addEventListener('click', createHeart);
+
+    // 创建爱心函数
+    function createHeart(event) {
+      // 创建 <div> 元素
+      const heart = document.createElement('div');
+      heart.classList.add('anxin');
+
+      // 随机生成颜色
+      const color = Math.floor(Math.random() * 16777215).toString(16);
+
+      // 应用 CSS 样式
+      heart.style.color = '#' + color;
+      heart.style.left = event.clientX + 'px';
+      heart.style.top = event.clientY + 'px';
+
+      // 添加到页面中
+      body.appendChild(heart);
+
+      // 移除爱心元素
+      // setTimeout(() => {
+      //   heart.remove();
+      // }, 1000);
+    }
+  </script>
+</body>
+
+</html>
